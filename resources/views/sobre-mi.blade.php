@@ -4,29 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mí</title>
-     
-    <style> 
-        body { 
-        font-family: Arial; 
-        background-color: #f4f4f4; 
-        margin: 40px; 
-        } 
-        
-        .container { 
-        background: white; 
-        padding: 20px; 
-        border-radius: 10px; 
-        max-width: 600px; 
-        } 
-        
-        h1 { 
-        color: #333; 
-        } 
-        
-        p { 
-        line-height: 1.6; 
-        } 
-    </style>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
      
