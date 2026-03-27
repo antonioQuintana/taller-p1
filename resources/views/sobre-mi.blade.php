@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-     
+    <nav class="navbar">
+        <a href="/">Inicio</a>
+        <a href="/sobre-mi">Sobre mi</a>
+    </nav>
+    
     <h1>Sobre mí</h1> 
     
     <p><b>Nombre:</b> Antonio Quintana</p> 
