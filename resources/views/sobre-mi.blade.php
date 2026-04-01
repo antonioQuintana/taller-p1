@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mí</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css')}}">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="/">Inicio</a>
-        <a href="/sobre-mi">Sobre mi</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Mi Sitio</a>
+
+            <div class="navbar-nav">
+                <a href="/" class="nav-link">Inicio</a>
+                <a href="/sobre-mi" class="nav-link">Sobre mí</a>
+            </div>
+        </div>
     </nav>
     
     <h1>Sobre mí</h1> 
@@ -27,6 +33,7 @@
     
     <p><b>Hobbies:</b> Programar, pool, pagode</p> 
     
-</div>
+    </div>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
