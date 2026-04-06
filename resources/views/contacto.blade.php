@@ -42,6 +42,7 @@
             </div>
         </div>
     </div>
+    <!-- @include('exito') para probar la vista exito debajo de contacto-->
     
     
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
