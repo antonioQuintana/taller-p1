@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactoController; /* Se importan los controladores */
 
 Route::get('/', function () {
     return view('welcome');
@@ -11,3 +12,4 @@ Route::get('/sobre-mi', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+Route::post('/contacto', [ContactoController::class, 'procesar']);

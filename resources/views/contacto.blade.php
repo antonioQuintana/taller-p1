@@ -23,6 +23,7 @@
                 <h2>Formulario de contacto</h2>
                 <form action="{{url('/contacto')}}" method="POST"> <!--Hay que poner la
                     ruta a donde se envia la informacion del form y el metodo-->
+                    @csrf <!-- Lo que hace es enviar un token de validacion -->
                     <div class="mb-3">
                         <label for="" class="form-label">Nombre</label>
                         <input type="text" class="form-control" placeholder="Ingrese su nombre">
