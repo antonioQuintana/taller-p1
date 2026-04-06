@@ -13,7 +13,7 @@
 
             <div class="navbar-nav">
                 <a href="/" class="nav-link">Inicio</a>
-                <a href="/sobre-mi" class="nav-link">Sobre mí</a>
+                <a href="/contacto" class="nav-link">Contacto</a>
             </div>
         </div>
     </nav>
@@ -33,29 +33,9 @@
                 web</p> 
             </div>
         </div>
-        <div class="card mt-4">
-            <div class="card-body">
-                <h2>Formulario de contacto</h2>
-                <form action="">
-                    <div class="mb-3">
-                        <label for="" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su nombre">
-                    </div>
-                    <div class="mb-3">
-                        <label for="" class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="Ingrese su email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="" class="form-label">Mensaje</label>
-                        <textarea rows="3" class="form-control"></textarea>
-                    </div>
-                    <buttom type="submit" class="btn btn-success">Enviar mensaje
-                    </buttom>
-                </form>
-            </div>
-        </div>
+        
         <a href="#" class="btn btn-primary mt-3">Descargar CV</a>
-        <a href="#" class="btn btn-secondary mt-3">Conectar</a>
+        <a href="/contacto" class="btn btn-secondary mt-3">Conectar</a>
     </div>
     
     
