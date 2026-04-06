@@ -18,14 +18,10 @@
         </div>
     </nav>
     <div class="container mt-4">
-       
-            
-            <div class="alert alert-success" role="alert">
-            Recibimos tu mensaje. Un asesor comercial se comunicará contigo a la 
+        <div class="alert alert-success" role="alert">
+        Recibimos tu mensaje. Un asesor comercial se comunicará contigo a la 
 brevedad. ¡Muchas gracias!
-            </div>
-            
-        
+        </div>
     </div>
     
     
