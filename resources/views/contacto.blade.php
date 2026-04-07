@@ -25,16 +25,16 @@
                     ruta a donde se envia la informacion del form y el metodo-->
                     @csrf <!-- Lo que hace es enviar un token de validacion -->
                     <div class="mb-3">
-                        <label for="" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input name="nombre" id="nombre" type="text" class="form-control" placeholder="Ingrese su nombre">
                     </div>
                     <div class="mb-3">
-                        <label for="" class="form-label">Email</label>
-                        <input type="email" class="form-control" placeholder="Ingrese su email">
+                        <label for="email" class="form-label">Email</label>
+                        <input name="email" id="email" type="email" class="form-control" placeholder="Ingrese su email">
                     </div>
                     <div class="mb-3">
-                        <label for="" class="form-label">Mensaje</label>
-                        <textarea rows="3" class="form-control"></textarea>
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" rows="3" class="form-control"></textarea>
                     </div>
                     <button type="submit" class="btn btn-success">Enviar mensaje
                     </button>
@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>
-    <!-- @include('exito') para probar la vista exito debajo de contacto-->
+    <!-- @ include('exito') para probar la vista exito debajo de contacto-->
     
     
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
