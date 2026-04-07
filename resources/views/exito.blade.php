@@ -19,8 +19,7 @@
     </nav>
     <div class="container mt-4">
         <div class="alert alert-success" role="alert">
-        Recibimos tu mensaje. Un asesor comercial se comunicará contigo a la 
-brevedad. ¡Muchas gracias!
+        Hola <strong>{{ $nombre }}</strong>, qué bueno recibir tu mensaje. Un miembro del equipo de ventas se pondrá en contacto con vos al correo: <strong>{{ $email }}</strong> ¡Muchas gracias!
         </div>
     </div>
     
