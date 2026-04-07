@@ -217,8 +217,13 @@
                 </div>
             </main>
         </div>
-        <div>Creando rama develop</div>
-
+        <div class="text-white mt-2">Creando rama develop</div>
+        <a href="/sobre-mi" target="_blank" class="mt-4 inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
+            Sobre mi
+        </a>
+        <a href="/contacto" target="_blank" class="mt-4 inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
+            Contacto
+        </a>
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
